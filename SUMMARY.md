@@ -1,4 +1,4 @@
-- [Part I:Java基础知识]()
+- [Part I:Java基础知识](javaBasic/README.md)
 	- [Java跨平台](javaBasic/platform/README.md)
 		- [Java跨平台的原理](javaBasic/platform/prnciple-platform.md)
 		- [字节码是什么](javaBasic/platform/bytecode.md)
@@ -26,10 +26,3 @@
 		- [关键字static](javaBasic/others/static.md)
 		- [关键字final&finally&finalize](javaBasic/others/final-finally-finalize.md)
 		- [jdk5.0新特性](javaBasic/others/jdk5.md) 
-Introduction
-* Really interesting
-    * Did you know?
-    * Oh yes
-        * I know!
-        * Quite
-    * Goshh
