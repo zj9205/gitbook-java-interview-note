@@ -30,10 +30,8 @@
         "pageNumbers": false,
         "paperSize": "a4"
     },
-    "plugins": ["comscore","fancybox"],
+    "plugins": [],
     "pluginsConfig": {
-        "fancybox": {
-        }
     },
     "title": "Java面试准备集合",
     "variables": {}
