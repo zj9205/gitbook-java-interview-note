@@ -3,7 +3,9 @@ JVM采用的是**分代回收**，不同代有不同的垃圾收集器
 ![垃圾收集器](http://askingwindy-gitcafe.qiniudn.com/垃圾收集器.jpg)
 ##CMS(Concurrent Mark Sweep)
 以获取**最短回收停顿**时间为目标的收集器
+
 ![CMS回收器](http://askingwindy-gitcafe.qiniudn.com/并发回收.jpg)
+
 ###基于标记-清除算法，分为四个步骤：
 1. 初始标记
 	-  Stop the world：用户不可见的情况下，把用户的正常进程全部停掉

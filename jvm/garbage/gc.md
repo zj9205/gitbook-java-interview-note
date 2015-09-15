@@ -9,6 +9,8 @@
 6. 如果老年代空间也不够（或者达到触发老年年垃圾回收条件的话）则触发一次full GC。
 
 简单方向就是Eden->From->To->Old，如下图所示：
+
 ![回收顺序](http://askingwindy-gitcafe.qiniudn.com/JVM堆内空间.png)
+
 ##持久带（方法区）的GC
 默认是不会对持久带（方法区）进行垃圾回收的，设置参数可回收：`-XX:+CMSClassUnloadingEnabled`
