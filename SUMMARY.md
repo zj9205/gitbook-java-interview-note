@@ -6,7 +6,7 @@
 	- [Collection集合类](javaBasic/collection/README.md) 
 		- [Map](javaBasic/collection/map/README.md)
 			- [ConcurrentHashMap与锁分离](javaBasic/collection/map/concurrent-hash-map.md)
-			- [HashMap与HashTable源码比较](javaBasic/collection/map/code-hashmap-hashtable.md)
+			- [HashMap与HashTable部分源码比较](javaBasic/collection/map/code-hashmap-hashtable.md)
 			- [LinkedHashMap源码研读](javaBasic/collection/map/linked-hash-map-code.md)
 			- [红黑树与平衡二叉树](javaBasic/collection/map/red-tredd-balanced-tree.md)
 			- [比较：TreeMap、HashMap、LinkedHashMap、HashTable](javaBasic/collection/map/compare.md) 

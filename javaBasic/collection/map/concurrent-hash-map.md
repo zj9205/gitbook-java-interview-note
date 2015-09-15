@@ -1,4 +1,3 @@
-<!-- toc -->
 #ConcurrentHashMap与锁分离
 ConcurrentHashMap是Java 5中支持高并发、高吞吐的HashMap。
 
