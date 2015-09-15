@@ -30,7 +30,7 @@
         "pageNumbers": false,
         "paperSize": "a4"
     },
-    "plugins": ["disqus","toc"],
+    "plugins": ["-disqus","toc"],
     "pluginsConfig": {
         "disqus": {
             "shortName": "askingwindystudying"
