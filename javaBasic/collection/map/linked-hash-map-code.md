@@ -117,8 +117,8 @@ void createEntry(int hash, K key, V value, int bucketIndex) {
     size++;
 }
 ```
----
-#LRU算法
+
+##LRU算法
 首先，当accessOrder为true时，才会开启按访问顺序排序的模式，才能用来实现LRU算法。
 
 无论是put方法还是get方法，都会导致目标Entry成为最近访问的Entry，因此便把该Entry加入到了双向链表的末尾

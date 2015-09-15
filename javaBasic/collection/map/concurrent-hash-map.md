@@ -31,11 +31,10 @@ ConcurrentHashMap的弱一致性主要是为了提升效率，是一致性与效
 
 要成为强一致性，就得到处使用锁，甚至是全局锁，这就与Hashtable和同步的HashMap一样了
 
-***
 
-#锁分离
+##锁分离
 每个Segment持有自己的锁，只要修改操作发生在不同的Segment上，就可以并发执行
-##跨Segment的锁
+###跨Segment的锁
 有些方法需要跨Segment执行:`size()`、`containsValue()`，他们可能需要锁定整个表而不仅仅是某个Segment。 
 
 需要按顺序锁定所有的段，操作完毕后，需要按顺序释放所有段的锁（确保不发生死锁）。

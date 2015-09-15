@@ -1,8 +1,8 @@
 # 关于String的面试题
-## Q1: `String s = new String("abc")`创建了几个对象?
+Q1: `String s = new String("abc")`创建了几个对象?
 A: 1个或2个。如果常量池原来有“abc”，那么只创建一个对象放在堆。如果没有，那么还要在常量池中新创建一个“abc”。
 
-##Q2: 请问s1==s3是true还是false，s1==s4是false还是true。s1==s5呢？
+Q2: 请问s1==s3是true还是false，s1==s4是false还是true。s1==s5呢？
 ```java
 String s1 = "abc";
 String s2 = "a";
