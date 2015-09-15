@@ -30,15 +30,8 @@
         "pageNumbers": false,
         "paperSize": "a4"
     },
-    "plugins": ["-disqus","toc"],
+    "plugins": [],
     "pluginsConfig": {
-        "disqus": {
-            "shortName": "askingwindystudying"
-        },
-        "toc": {
-            "addClass": true,
-            "className": "toc"
-        }
     },
     "title": "Java面试准备集合",
     "variables": {}
