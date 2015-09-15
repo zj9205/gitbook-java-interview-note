@@ -30,7 +30,7 @@ HashMap找寻value的过程：
 4. 找不到，返回null
 
 
-```
+```java
 public class HashMap<K,V>{
      static final int DEFAULT_INITIAL_CAPACITY = 16 ; // 默认初始容量是16。（必须是2的次方）
      static final int MAXIMUM_CAPACITY = 1 << 30 ; // 即2的30次方
@@ -48,7 +48,7 @@ public class HashMap<K,V>{
 为了寻址的快速。寻址是通过 index & (table.length-1)实现的，其实就是一个取模，如果table.length 是2的倍数的话，table.length-1 总是 111111... 的结构，与运算可以方便的得到mod值
 
 ###put()方法
-```
+```java
 public V put(K key, V value) {
      int hash = hash(key.hashCode());     // key的hash值，调用了hash()方法，相当于做了二次hash
      int i = indexFor(hash,table.length);     // 得到槽位
