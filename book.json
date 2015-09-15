@@ -30,7 +30,7 @@
         "pageNumbers": false,
         "paperSize": "a4"
     },
-    "plugins": ["comscore","hightlight","fancybox"],
+    "plugins": ["comscore","fancybox"],
     "pluginsConfig": {
         "fancybox": {
         }

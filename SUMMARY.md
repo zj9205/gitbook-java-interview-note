@@ -14,6 +14,7 @@
 	- [反射机制](javaBasic/reflection/README.md)
 		- [应用场景](javaBasic/reflection/scene.md)
 		- [如何优化反射机制](javaBasic/reflection/tuning.md)
+		- [Java中创建对象的4种方法](javaBasic/reflection/create-object.md)
 	- [异常处理](javaBasic/throwable/README.md)
 		- [异常处理的作用（与C语言比较)](javaBasic/throwable/compare-c.md)
 		- [finally面试题](javaBasic/throwable/finally.md)
