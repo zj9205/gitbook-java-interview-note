@@ -1,0 +1,8 @@
+# OOM与调优
+## 出现OutOfMemeory的情况
+1. 应用的缓存或者Collection：如果应用要缓存Java对象或者是在一个Collection中保存对象，那么就要确定是否会有大量的对象存入，要做保护，以防止在大数据量下大量内存被消耗，同时要保证Cache的大小不会无限制增加
+2. 生命周期较长的对象：尽量简短对象的生命周期，现在采用对象的创建释放代价已经很低，同时作了很好的优化，要比创建一个对象长期反复使用要好。如果能够设置超时的情景下，尽量设置超时
+3. 类似于JDBC的Connection Pool，在使用Pool中的对象以后需要释放并返回，不然就会造成Pool的不断增大，在其他Pool中使用也是一样。同样ResultSet，IO这类资源的释放都需要注意
+
+##OOM对系统调优的影响
+当然可以通过调优，用NewRatio控制newObject和oldObject的比例，用MaxTenuringThreshold 控制进入oldObject的次数，使得oldObject 存储空间延迟达到full gc,从而使得计时器引发gc时间延迟OOM的时间延迟，以延长对象生存期
