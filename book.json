@@ -32,6 +32,8 @@
     },
     "plugins": ["hightlight","fancybox"],
     "pluginsConfig": {
+        "fancybox": {
+        }
     },
     "title": "Java面试准备集合",
     "variables": {}
