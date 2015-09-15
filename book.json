@@ -30,7 +30,7 @@
         "pageNumbers": false,
         "paperSize": "a4"
     },
-    "plugins": [],
+    "plugins": ["maxiang"],
     "pluginsConfig": {
     },
     "title": "Java面试准备集合",
