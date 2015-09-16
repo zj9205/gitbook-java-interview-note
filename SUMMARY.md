@@ -30,6 +30,7 @@
 		- [jdk5.0新特性](javaBasic/others/jdk5.md) 
 - [JVM](jvm/README.md)
 	- [JVM启动参数的意义](jvm/startup-params.md)
+	- [JVM的内存模型](jvm/jvm-model.md)
 	- [JVM内存划分](jvm/storage-patition.md)
 	- [对象的管理](jvm/object/README.md)
 		- [对象创建的过程](jvm/object/object-creation.md)
@@ -47,6 +48,7 @@
 		- [类加载器：双亲委派模型与OSGI](jvm/classloader/classloader.md)
 		- [解释器执行过程与栈帧结构](jvm/classloader/interpreter-stack.md)
 		- [类文件的结构](jvm/classloader/structure.md) 
+
 - [IO](io/README.md)
 	- [磁盘IO的访问方式](io/read-ways.md)
 	- [堆内内存vs堆外内存](io/direct-buffer.md)
@@ -76,3 +78,5 @@
 		- [线程异常面试题](thread/interview/exception.md)
 		- [多线程通信面试题](thread/interview/communication.md)
 		- [其他面试题](thread/interview/others.md)
+- [网络通信](network-communication/README.md)
+	- [TCP/UDP](network-communication/tcp-udp/README.md) 
