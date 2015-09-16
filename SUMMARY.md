@@ -73,4 +73,6 @@
 		- [线程死锁：哲学家问题](thread/interview/philosopher.md)
 		- [生产者消费者模型](thread/interview/produce-consume.md)
 		- [关于多线程的面试题](thread/interview/thread-pool.md)
+		- [线程异常面试题](thread/interview/exception.md)
+		- [多线程通信面试题](thread/interview/communication.md)
 		- [其他面试题](thread/interview/others.md)
