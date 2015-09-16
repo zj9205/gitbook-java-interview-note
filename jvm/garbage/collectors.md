@@ -1,5 +1,6 @@
 # 垃圾回收器
 JVM采用的是**分代回收**，不同代有不同的垃圾收集器
+
 ![垃圾收集器](http://askingwindy-gitcafe.qiniudn.com/垃圾收集器.jpg)
 ##CMS(Concurrent Mark Sweep)
 以获取**最短回收停顿**时间为目标的收集器

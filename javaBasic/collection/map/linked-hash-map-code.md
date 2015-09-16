@@ -1,5 +1,8 @@
 #LinkedHashMap源码研读
-LinkedHashMap是HashMap+LinkedList的结合，新元素put进来的Entry会保存在HashMap中，同时它也会被加入一个header为头指针的双向循环链表的尾部！
+LinkedHashMap是HashMap+LinkedList的结合
+
+新元素put进来的Entry会保存在HashMap中，同时它也会被加入一个header为头指针的双向循环链表的尾部！
+
 ![LinkedHashMap具体结构](http://askingwindy-gitcafe.qiniudn.com/LinkedHashMap.png)
 ##LinkedHashMap的有序性
 能够保证某种有序性，非排序有序性，而是指某种稳定性：

@@ -30,7 +30,7 @@
         "pageNumbers": false,
         "paperSize": "a4"
     },
-    "plugins": ["maxiang"],
+    "plugins": ["maxiang","gitbook-plugin-yahei"],
     "pluginsConfig": {
     },
     "title": "Java面试准备集合",

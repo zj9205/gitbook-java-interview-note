@@ -9,7 +9,11 @@ String 类型和 StringBuffer 类型的主要性能区别其实在于 String 是
 
 ## 字符串拼接效率比较
 1. 直接使用`+` 最慢
+
 2. 使用`StringBuilder.append()`,速度最快，但有线程安全问题，只有JDK5支持
+
 3. Join和StringBuffer速度差不多
+
 4. StringUtils:join(Object[] array, String separator),将字符串数组转成字符串(和split对应)
+
 5. string(s).concat()比`+`快不了多少
