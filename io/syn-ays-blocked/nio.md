@@ -33,13 +33,13 @@ NIO读写的容器，从Buffer中读取数据或者将数据写入到Buffer中
 对比上诉InputSteam/OutputStream， Stream用byte数组byte[]来做缓存，状态无法记录，不知道读/写了多少，还有多少是有效字节，下次从哪里开始读/写
 
 ####Buffer内部的3个控制位置字段
-1. position：下一个要读/写的位置
+1. **position**：下一个要读/写的位置
 	- 读：position指定了下一个字节将放到数组的哪一个元素中。因此，如果您从通道中读三个字节到缓冲区中，那么缓冲区的 position 将会设置为3，指向数组中第四个元素
 	- 写：position 值跟踪从缓冲区中获取了多少数据。更准确地说，它指定下一个字节来自数组的哪一个元素。因此如果从缓冲区写了5个字节到通道中，那么缓冲区的 position 将被设置为5，指向数组的第六个元素。
-2. limit：有效位置边界
+2. **limit**：有效位置边界
 	- 读：能读到的最大位置
 	- 写：可以被写到的最大位置
-3. capacity：容量
+3. **capacity**：容量
 
 一般而言，position <= limit <= capacity
 
@@ -48,6 +48,7 @@ NIO读写的容器，从Buffer中读取数据或者将数据写入到Buffer中
 - filp() 用在 read 和 write 之间，使 ready to write
 
 - clear() 用在write 和下一次 read 之间，使 ready to read
+
 ####Buffer的获取
 #####1. allocate通过工厂构造：使用堆内内存
 ```java
