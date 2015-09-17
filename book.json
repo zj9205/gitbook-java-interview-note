@@ -1,6 +1,6 @@
 {
     "author": "Askingwindy <askingwindy@gmail.com>",
-    "description": "Java面试准备集合",
+    "description": "Java面试准备",
     "extension": null,
     "generator": "site",
     "isbn": null,
@@ -33,6 +33,6 @@
     "plugins": ["maxiang","yahei"],
     "pluginsConfig": {
     },
-    "title": "Java面试准备集合",
+    "title": "Java面试准备",
     "variables": {}
 }
