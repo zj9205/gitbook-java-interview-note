@@ -80,6 +80,7 @@
 		- [其他面试题](thread/interview/others.md)
 - [网络通信](network-communication/README.md)
 	- [序列化与反序列化](network-communication/serizalizable/README.md)
+		- [Java中的序列化与反序列化](network-communication/serizalizable/java-serizaliable.md)
 		- [transient关键字](network-communication/serizalizable/transient.md)
 		- [常见面试题](network-communication/serizalizable/interview.md)
 	- [TCP/UDP](network-communication/tcp-udp/README.md)
