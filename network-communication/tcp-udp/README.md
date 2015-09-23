@@ -14,7 +14,7 @@ TCP的目的是提供可靠的数据传输，并在相互进行通信的设备�
 
 ##TCP/IP四层协议
 
-![TCP/IP四层协议](http://7d9o4k.com1.z0.glb.clouddn.com/tcp-ip.PNG)
+![TCP/IP四层协议]()
 
 ##面试题
 ###Http是基于TCP

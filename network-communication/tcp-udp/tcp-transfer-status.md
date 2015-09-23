@@ -1,5 +1,5 @@
 # TCP状态迁移图
-![状态转移图](http://7d9o4k.com1.z0.glb.clouddn.com/tcp-status.JPG)
+![状态转移图]()
 
 
 |序号|状态|备注|
