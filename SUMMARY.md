@@ -97,3 +97,4 @@
 		- [URL与URI](network-communication/http/url-uri.md)
 		- [Web缓存与客户端缓存](network-communication/http/cache.md)
 		- [续传与多线程下载原理](network-communication/http/partial-content.md)
+- [The duck](whatisthis/duck.md)
