@@ -12,17 +12,17 @@
 ##哪些是非阻塞
 NIO之前的IO都是**阻塞的**，NIO里面也有阻塞、非阻塞之分
 
-![Channel子类]()
+![Channel子类](http://7d9o4k.com1.z0.glb.clouddn.com/nio-1.png)
 
 - 阻塞NIO是继承于AbstractInterruptibleChannel，例如FileChannel
 
 - 非阻塞的NIO是继承于SelectableChannel，包括ServerSocketChannel, SocketChannel(TCP), DatagramChannel(UDP)
 
-![SelectableChannel子类]()
+![SelectableChannel子类](http://7d9o4k.com1.z0.glb.clouddn.com/nio-2.png)
 
 ###SelectableChannel
 
-![SelectableChannel]()
+![SelectableChannel](http://7d9o4k.com1.z0.glb.clouddn.com/3.png)
 
 SelectableChannel通过configureBlocking(boolean) 来设置阻塞/非阻塞
 
@@ -33,7 +33,7 @@ SelectableChannel通过configureBlocking(boolean) 来设置阻塞/非阻塞
 - 存放的是SelectionKey
 - 构造：Select.open()
 
-![Selector]()
+![Selector](http://7d9o4k.com1.z0.glb.clouddn.com/4.png)
 
 - Selector类似一个观察者，只要我们把需要探知的套接字通道socketchannel注册到Selector,程序不用阻塞等待，可以并行做别的事情，当有事件发生时，Selector会通知程序，传回一组SelectionKey,程序读取这些Key,就会获得注册过的socketchannel,然后，从这个Channel中读取和处理数据
 
@@ -42,10 +42,10 @@ SelectableChannel通过configureBlocking(boolean) 来设置阻塞/非阻塞
 ###SelectionKey
 用于标注注册事件的信息，以Channel为单位，因为register()是Channel的方法
 
-![SelectionKey]()
+![SelectionKey](http://7d9o4k.com1.z0.glb.clouddn.com/5.png)
 
 ###Channel
 - Channel会发生事件：ACCEPT、READ、WRITE等
 - Channel通过register()方法在Selector上注册需要监控的事件
-	-![register]() 
+	-![register](http://7d9o4k.com1.z0.glb.clouddn.com/6.png) 
 	- 其中Object是Attach的一个对象，取出时用 Selectionkey.attachment()，并强制类型转换

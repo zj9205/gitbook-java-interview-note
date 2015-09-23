@@ -3,7 +3,7 @@ Cookie与Session都是为了用来保存状态信息，保存客户端状态的�
 
 - Session可以用Cookie来实现，也可以用URL回写机制实现
 
-![Cookie与Session]()
+![Cookie与Session](http://7d9o4k.com1.z0.glb.clouddn.com/cookie-session.png)
 
 ##Session
 Session是一种**服务器端**的机制，服务器使用一种类似于散列表的结构来保存信息(Session id来保存用户信息)
@@ -13,7 +13,7 @@ Session是一种**服务器端**的机制，服务器使用一种类似于散列
 
 2. 当客户端发起新的请求的时候，将在 Cookie头中携带这个 JSESSIONID。这样服务器能够找到这个客户端对应的 Session
 
-![Cookie实现Session机制]()
+![Cookie实现Session机制](http://7d9o4k.com1.z0.glb.clouddn.com/cookie-session-2.png)
 
 ###URL回写实现Session机制
 服务器在发送给浏览器页面的所有链接中都携带 JSESSIONID的参数，这样客户端点击任何一个链接都会把 JSESSIONID带会服务器
