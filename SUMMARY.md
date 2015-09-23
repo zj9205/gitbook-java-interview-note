@@ -1,4 +1,5 @@
 - [Java基础知识](javaBasic/README.md)
+	- [hi, duck](whatisthis/duck.md)
 	- [Java跨平台](javaBasic/platform/README.md)
 		- [字节码是什么](javaBasic/platform/bytecode.md)
 		- [JVM跨平台的原理](javaBasic/platform/prnciple-platform.md)		
