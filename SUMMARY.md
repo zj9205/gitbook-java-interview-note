@@ -90,6 +90,7 @@
 		- [非阻塞SOCKET](network-communication/tcp-udp/non-block-socket.md)
 	- [HTTP](network-communication/http/README.md)
 		- [Cookie与Session](network-communication/http/cookie-session.md)
+		- [GET与POST的区别](network-communication/http/get-post.md)
 		- [状态码](network-communication/http/status-code.md)	
 		- [Http通信数据转发过程](network-communication/http/communication.md)
 		- [Http1.0与1.1](network-communication/http/version.md)
@@ -97,4 +98,3 @@
 		- [URL与URI](network-communication/http/url-uri.md)
 		- [Web缓存与客户端缓存](network-communication/http/cache.md)
 		- [续传与多线程下载原理](network-communication/http/partial-content.md)
-- [The duck](whatisthis/duck.md)
