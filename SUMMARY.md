@@ -1,4 +1,3 @@
-
 - [hi, duck](whatisthis/duck.md)
 - [Java基础知识](javaBasic/README.md)
 	- [Java跨平台](javaBasic/platform/README.md)
