@@ -1,4 +1,4 @@
-- [hi, duck](whatisthis/duck.md)
+﻿- [hi, duck](whatisthis/duck.md)
 - [Java基础知识](javaBasic/README.md)
 	- [Java跨平台](javaBasic/platform/README.md)
 		- [字节码是什么](javaBasic/platform/bytecode.md)
@@ -109,3 +109,4 @@
     - [建造者模式](pattern/builder/README.md)
 - [数据库](database/README.md)
 	- [事务](database/transaction.md)
+	- [ORM](database/ORM.md)
